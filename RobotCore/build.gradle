@@ -10,6 +10,7 @@ android {
 
     defaultConfig {
         minSdkVersion 23
+        //noinspection ExpiredTargetSdkVersion
         targetSdkVersion 28
         versionCode 85
         versionName "17.0"
@@ -69,7 +70,7 @@ android {
         }
     }
 
-    ndkVersion '21.3.6528147'
+    ndkVersion '23.1.7779620'
 
 }
 
